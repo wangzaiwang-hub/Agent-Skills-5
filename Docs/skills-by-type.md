@@ -12,14 +12,14 @@ Generated from `metadata.skill-type` tags in skill frontmatter. This index compl
 - `library_api_reference`: 6
 - `product_verification`: 8
 - `data_fetch_analysis`: 4
-- `team_automation`: 34
-- `scaffolding_templates`: 23
-- `code_quality_review`: 27
+- `team_automation`: 35
+- `scaffolding_templates`: 24
+- `code_quality_review`: 28
 - `ci_cd_deployment`: 4
 - `runbook`: 15
-- `infrastructure_ops`: 4
+- `infrastructure_ops`: 5
 - `invalid`: 0
-- `total_tagged`: 125
+- `total_tagged`: 129
 
 ## Semantic Types
 
@@ -80,6 +80,7 @@ Generated from `metadata.skill-type` tags in skill frontmatter. This index compl
 - `product-spec` — `Skills/product-strategy`
 - `production-deployment` — `Skills/agent-ops`
 - `resolve-todo-parallel` — `Skills/agent-ops`
+- `skill-factory-router` — `Plugins/skill-factory/skills`
 - `slides` — `Skills/content-publishing`
 - `triage` — `Skills/agent-ops`
 - `video-transcript-downloader` — `Skills/content-publishing`
@@ -107,6 +108,7 @@ Generated from `metadata.skill-type` tags in skill frontmatter. This index compl
 - `og-image-creator` — `Skills/frontend-ui`
 - `plugin-creator` — `Plugins/plugin-factory/skills/scaffolding_templates`
 - `shadcn-ui` — `Skills/frontend-ui`
+- `skill-creator` — `Plugins/skill-factory/skills/scaffolding_templates`
 - `stitch-loop` — `Skills/frontend-ui`
 - `stitch-react-components` — `Skills/frontend-ui`
 - `stitch-remotion` — `Skills/frontend-ui`
@@ -136,6 +138,7 @@ Generated from `metadata.skill-type` tags in skill frontmatter. This index compl
 - `rust-pro` — `Skills/agent-ops`
 - `security-best-practices` — `Skills/security-ops`
 - `simplify` — `Skills/agent-ops`
+- `skill-builder` — `Plugins/skill-factory/skills/code_quality_review`
 - `swift-development` — `Skills/agent-ops`
 - `test-driven-development` — `Skills/agent-ops`
 - `toml` — `Skills/agent-ops`
@@ -174,6 +177,7 @@ Generated from `metadata.skill-type` tags in skill frontmatter. This index compl
 - `claude-alias` — `Skills/agent-ops`
 - `fix-mise` — `Skills/agent-ops`
 - `plugin-installer` — `Plugins/plugin-factory/skills/infrastructure_ops`
+- `skill-installer` — `Plugins/skill-factory/skills/infrastructure_ops`
 
 ## Validation Notes
 

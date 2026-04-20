@@ -3,19 +3,73 @@
   "schema_version": "runtime-separation-current.v1",
   "status": "healthy",
   "summary": {
-    "canonical_root_digest": "7b5d4c75b7d193388853ab7a35833078d82d7650c2003238ba347ebd59913cc1",
+    "canonical_root_digest": "a4d137082c750ef98934feb0607723b5acd866dd91d187b137f5d0d37f31d95d",
     "command_checks": {
       "plugins_doctor": {
         "blocker_id": null,
         "command": "bin/ask plugins doctor --json",
         "drift_class": null,
-        "evidence_ref": "sha256:4703027dea6eb4832855fbeecc1a46e0406d0589d5462180e98d3b33425b0f13",
+        "evidence_ref": "sha256:a64d2f812295ed86c09b56ca421f3fa4f442d40711ec6b789d87d032640bacc0",
         "normalized_fields": {
           "activation_plugins": [
             {
-              "cache_present": false,
+              "cache_present": true,
+              "marketplace_source_path": "./Plugins/build-ios-apps",
+              "name": "build-ios-apps",
+              "registered_in_marketplace": true
+            },
+            {
+              "cache_present": true,
+              "marketplace_source_path": "./Plugins/build-macos-apps",
+              "name": "build-macos-apps",
+              "registered_in_marketplace": true
+            },
+            {
+              "cache_present": true,
+              "marketplace_source_path": "./Plugins/build-web-apps",
+              "name": "build-web-apps",
+              "registered_in_marketplace": true
+            },
+            {
+              "cache_present": true,
+              "marketplace_source_path": "./Plugins/circleci",
+              "name": "circleci",
+              "registered_in_marketplace": true
+            },
+            {
+              "cache_present": true,
+              "marketplace_source_path": "./Plugins/cloudflare",
+              "name": "cloudflare",
+              "registered_in_marketplace": true
+            },
+            {
+              "cache_present": true,
               "marketplace_source_path": "./Plugins/coderabbit",
               "name": "coderabbit",
+              "registered_in_marketplace": true
+            },
+            {
+              "cache_present": true,
+              "marketplace_source_path": "./Plugins/coderabbit",
+              "name": "coderabbit",
+              "registered_in_marketplace": true
+            },
+            {
+              "cache_present": true,
+              "marketplace_source_path": "./.codex/plugins/computer-use",
+              "name": "computer-use",
+              "registered_in_marketplace": true
+            },
+            {
+              "cache_present": true,
+              "marketplace_source_path": "./Plugins/figma",
+              "name": "figma",
+              "registered_in_marketplace": true
+            },
+            {
+              "cache_present": true,
+              "marketplace_source_path": "./Plugins/github",
+              "name": "github",
               "registered_in_marketplace": true
             },
             {
@@ -26,14 +80,38 @@
             },
             {
               "cache_present": true,
+              "marketplace_source_path": "./Plugins/linear",
+              "name": "linear",
+              "registered_in_marketplace": true
+            },
+            {
+              "cache_present": true,
+              "marketplace_source_path": "./Plugins/plugin-eval",
+              "name": "plugin-eval",
+              "registered_in_marketplace": true
+            },
+            {
+              "cache_present": true,
               "marketplace_source_path": "./Plugins/plugin-factory",
               "name": "plugin-factory",
               "registered_in_marketplace": true
             },
             {
               "cache_present": true,
+              "marketplace_source_path": "./Plugins/sentry",
+              "name": "sentry",
+              "registered_in_marketplace": true
+            },
+            {
+              "cache_present": true,
               "marketplace_source_path": "./Plugins/skill-factory",
               "name": "skill-factory",
+              "registered_in_marketplace": true
+            },
+            {
+              "cache_present": true,
+              "marketplace_source_path": "./Plugins/slack",
+              "name": "slack",
               "registered_in_marketplace": true
             }
           ],
@@ -42,20 +120,72 @@
           "health_status": "healthy",
           "installed_plugins": [
             {
+              "name": "build-ios-apps",
+              "path": "plugins/cache/openai-curated/build-ios-apps/b1986b3d3da5bb8a04d3cb1e69af5a29bb5c2c04"
+            },
+            {
+              "name": "build-macos-apps",
+              "path": "plugins/cache/openai-curated/build-macos-apps/b1986b3d3da5bb8a04d3cb1e69af5a29bb5c2c04"
+            },
+            {
+              "name": "build-web-apps",
+              "path": "plugins/cache/openai-curated/build-web-apps/b1986b3d3da5bb8a04d3cb1e69af5a29bb5c2c04"
+            },
+            {
+              "name": "circleci",
+              "path": "plugins/cache/openai-curated/circleci/b1986b3d3da5bb8a04d3cb1e69af5a29bb5c2c04"
+            },
+            {
+              "name": "cloudflare",
+              "path": "plugins/cache/openai-curated/cloudflare/b1986b3d3da5bb8a04d3cb1e69af5a29bb5c2c04"
+            },
+            {
               "name": "coderabbit",
               "path": "plugins/coderabbit"
+            },
+            {
+              "name": "coderabbit",
+              "path": "plugins/cache/openai-curated/coderabbit/b1986b3d3da5bb8a04d3cb1e69af5a29bb5c2c04"
+            },
+            {
+              "name": "computer-use",
+              "path": "plugins/cache/openai-bundled/computer-use/1.0.750"
+            },
+            {
+              "name": "figma",
+              "path": "plugins/cache/openai-curated/figma/b1986b3d3da5bb8a04d3cb1e69af5a29bb5c2c04"
+            },
+            {
+              "name": "github",
+              "path": "plugins/cache/openai-curated/github/b1986b3d3da5bb8a04d3cb1e69af5a29bb5c2c04"
             },
             {
               "name": "harness-engineering",
               "path": "plugins/harness-engineering"
             },
             {
+              "name": "linear",
+              "path": "plugins/cache/openai-curated/linear/b1986b3d3da5bb8a04d3cb1e69af5a29bb5c2c04"
+            },
+            {
+              "name": "plugin-eval",
+              "path": "plugins/cache/openai-curated/plugin-eval/b1986b3d3da5bb8a04d3cb1e69af5a29bb5c2c04"
+            },
+            {
               "name": "plugin-factory",
               "path": "plugins/plugin-factory"
             },
             {
+              "name": "sentry",
+              "path": "plugins/cache/openai-curated/sentry/b1986b3d3da5bb8a04d3cb1e69af5a29bb5c2c04"
+            },
+            {
               "name": "skill-factory",
               "path": "plugins/skill-factory"
+            },
+            {
+              "name": "slack",
+              "path": "plugins/cache/openai-curated/slack/b1986b3d3da5bb8a04d3cb1e69af5a29bb5c2c04"
             }
           ],
           "status": "success"
@@ -64,14 +194,129 @@
         "subject_id": "plugins"
       },
       "plugins_status": {
+        "build-ios-apps": {
+          "blocker_id": null,
+          "command": "bin/ask plugins status build-ios-apps --json",
+          "drift_class": null,
+          "evidence_ref": "sha256:de9e03d5a98a61dfd6a59bd9843adda3990d91603a92a4695482c0ae7a996968",
+          "normalized_fields": {
+            "activation_plugin": {
+              "cache_present": true,
+              "marketplace_source_path": "./Plugins/build-ios-apps",
+              "name": "build-ios-apps",
+              "registered_in_marketplace": true
+            },
+            "command": "plugins status build-ios-apps --json",
+            "installed_plugin": {
+              "name": "build-ios-apps",
+              "path": "plugins/cache/openai-curated/build-ios-apps/b1986b3d3da5bb8a04d3cb1e69af5a29bb5c2c04"
+            },
+            "plugin_id": "build-ios-apps",
+            "status": "success"
+          },
+          "returncode": 0,
+          "subject_id": "build-ios-apps"
+        },
+        "build-macos-apps": {
+          "blocker_id": null,
+          "command": "bin/ask plugins status build-macos-apps --json",
+          "drift_class": null,
+          "evidence_ref": "sha256:beebc54fc5d18ac9e13a1123caaa86919e98910c88080c390125b4d310a254a3",
+          "normalized_fields": {
+            "activation_plugin": {
+              "cache_present": true,
+              "marketplace_source_path": "./Plugins/build-macos-apps",
+              "name": "build-macos-apps",
+              "registered_in_marketplace": true
+            },
+            "command": "plugins status build-macos-apps --json",
+            "installed_plugin": {
+              "name": "build-macos-apps",
+              "path": "plugins/cache/openai-curated/build-macos-apps/b1986b3d3da5bb8a04d3cb1e69af5a29bb5c2c04"
+            },
+            "plugin_id": "build-macos-apps",
+            "status": "success"
+          },
+          "returncode": 0,
+          "subject_id": "build-macos-apps"
+        },
+        "build-web-apps": {
+          "blocker_id": null,
+          "command": "bin/ask plugins status build-web-apps --json",
+          "drift_class": null,
+          "evidence_ref": "sha256:ae3cd8540a35186798e86a8a5e79304020d31c17b35d5f1e32c0e160d4313ff9",
+          "normalized_fields": {
+            "activation_plugin": {
+              "cache_present": true,
+              "marketplace_source_path": "./Plugins/build-web-apps",
+              "name": "build-web-apps",
+              "registered_in_marketplace": true
+            },
+            "command": "plugins status build-web-apps --json",
+            "installed_plugin": {
+              "name": "build-web-apps",
+              "path": "plugins/cache/openai-curated/build-web-apps/b1986b3d3da5bb8a04d3cb1e69af5a29bb5c2c04"
+            },
+            "plugin_id": "build-web-apps",
+            "status": "success"
+          },
+          "returncode": 0,
+          "subject_id": "build-web-apps"
+        },
+        "circleci": {
+          "blocker_id": null,
+          "command": "bin/ask plugins status circleci --json",
+          "drift_class": null,
+          "evidence_ref": "sha256:17a3752fcab423ec0224806942dbed8ed5670b7fcafc5c9ef6e44ad7c05c56e4",
+          "normalized_fields": {
+            "activation_plugin": {
+              "cache_present": true,
+              "marketplace_source_path": "./Plugins/circleci",
+              "name": "circleci",
+              "registered_in_marketplace": true
+            },
+            "command": "plugins status circleci --json",
+            "installed_plugin": {
+              "name": "circleci",
+              "path": "plugins/cache/openai-curated/circleci/b1986b3d3da5bb8a04d3cb1e69af5a29bb5c2c04"
+            },
+            "plugin_id": "circleci",
+            "status": "success"
+          },
+          "returncode": 0,
+          "subject_id": "circleci"
+        },
+        "cloudflare": {
+          "blocker_id": null,
+          "command": "bin/ask plugins status cloudflare --json",
+          "drift_class": null,
+          "evidence_ref": "sha256:5f04b8f2058bdfdf8fff39e6bff9ca695c14b8e6e9b322e2c1cd7486b5f5b6f7",
+          "normalized_fields": {
+            "activation_plugin": {
+              "cache_present": true,
+              "marketplace_source_path": "./Plugins/cloudflare",
+              "name": "cloudflare",
+              "registered_in_marketplace": true
+            },
+            "command": "plugins status cloudflare --json",
+            "installed_plugin": {
+              "name": "cloudflare",
+              "path": "plugins/cache/openai-curated/cloudflare/b1986b3d3da5bb8a04d3cb1e69af5a29bb5c2c04"
+            },
+            "plugin_id": "cloudflare",
+            "status": "success"
+          },
+          "returncode": 0,
+          "subject_id": "cloudflare"
+        },
         "coderabbit": {
           "blocker_id": null,
           "command": "bin/ask plugins status coderabbit --json",
           "drift_class": null,
-          "evidence_ref": "sha256:b8f0c9d397af01448a1932bce59fe931dab8476b216af5df4b411b30d9c80680",
+          "evidence_ref": "sha256:b6daeb8a332a70b222c686aa67f7904bc5d824308304e35915a131639bc163f9",
           "normalized_fields": {
             "activation_plugin": {
-              "cache_present": false,
+              "cache_present": true,
               "marketplace_source_path": "./Plugins/coderabbit",
               "name": "coderabbit",
               "registered_in_marketplace": true
@@ -87,11 +332,80 @@
           "returncode": 0,
           "subject_id": "coderabbit"
         },
+        "computer-use": {
+          "blocker_id": null,
+          "command": "bin/ask plugins status computer-use --json",
+          "drift_class": null,
+          "evidence_ref": "sha256:2a20a6c4be43fa9237b2b8a6fac1e9a20c4deb3368e318f487a60b053f1bcc5d",
+          "normalized_fields": {
+            "activation_plugin": {
+              "cache_present": true,
+              "marketplace_source_path": "./.codex/plugins/computer-use",
+              "name": "computer-use",
+              "registered_in_marketplace": true
+            },
+            "command": "plugins status computer-use --json",
+            "installed_plugin": {
+              "name": "computer-use",
+              "path": "plugins/cache/openai-bundled/computer-use/1.0.750"
+            },
+            "plugin_id": "computer-use",
+            "status": "success"
+          },
+          "returncode": 0,
+          "subject_id": "computer-use"
+        },
+        "figma": {
+          "blocker_id": null,
+          "command": "bin/ask plugins status figma --json",
+          "drift_class": null,
+          "evidence_ref": "sha256:53557eb4a7c12490e657df6b716ae6b024981ad6b39256a5757f684b87d1dabf",
+          "normalized_fields": {
+            "activation_plugin": {
+              "cache_present": true,
+              "marketplace_source_path": "./Plugins/figma",
+              "name": "figma",
+              "registered_in_marketplace": true
+            },
+            "command": "plugins status figma --json",
+            "installed_plugin": {
+              "name": "figma",
+              "path": "plugins/cache/openai-curated/figma/b1986b3d3da5bb8a04d3cb1e69af5a29bb5c2c04"
+            },
+            "plugin_id": "figma",
+            "status": "success"
+          },
+          "returncode": 0,
+          "subject_id": "figma"
+        },
+        "github": {
+          "blocker_id": null,
+          "command": "bin/ask plugins status github --json",
+          "drift_class": null,
+          "evidence_ref": "sha256:86e31b04101b67687d503e4e1b8d2a5fec359f6721c66204495d555113f3c9de",
+          "normalized_fields": {
+            "activation_plugin": {
+              "cache_present": true,
+              "marketplace_source_path": "./Plugins/github",
+              "name": "github",
+              "registered_in_marketplace": true
+            },
+            "command": "plugins status github --json",
+            "installed_plugin": {
+              "name": "github",
+              "path": "plugins/cache/openai-curated/github/b1986b3d3da5bb8a04d3cb1e69af5a29bb5c2c04"
+            },
+            "plugin_id": "github",
+            "status": "success"
+          },
+          "returncode": 0,
+          "subject_id": "github"
+        },
         "harness-engineering": {
           "blocker_id": null,
           "command": "bin/ask plugins status harness-engineering --json",
           "drift_class": null,
-          "evidence_ref": "sha256:4c2ce74af08f28a2e64837f0707623cf6f96d8136af833574018868689fac72a",
+          "evidence_ref": "sha256:125f0394e5d5b8a4ee0f04b5c53c66344fb358bb7f72bfd182657cbd5cb4bbd3",
           "normalized_fields": {
             "activation_plugin": {
               "cache_present": true,
@@ -110,11 +424,57 @@
           "returncode": 0,
           "subject_id": "harness-engineering"
         },
+        "linear": {
+          "blocker_id": null,
+          "command": "bin/ask plugins status linear --json",
+          "drift_class": null,
+          "evidence_ref": "sha256:826197f1f1b3c55995f97113fec7b9342c27a649d4fda025502303793ffea197",
+          "normalized_fields": {
+            "activation_plugin": {
+              "cache_present": true,
+              "marketplace_source_path": "./Plugins/linear",
+              "name": "linear",
+              "registered_in_marketplace": true
+            },
+            "command": "plugins status linear --json",
+            "installed_plugin": {
+              "name": "linear",
+              "path": "plugins/cache/openai-curated/linear/b1986b3d3da5bb8a04d3cb1e69af5a29bb5c2c04"
+            },
+            "plugin_id": "linear",
+            "status": "success"
+          },
+          "returncode": 0,
+          "subject_id": "linear"
+        },
+        "plugin-eval": {
+          "blocker_id": null,
+          "command": "bin/ask plugins status plugin-eval --json",
+          "drift_class": null,
+          "evidence_ref": "sha256:ef52e9bdd3661fcbbeb132a534e56abba42f8e2d047ffdbdc9f4041c0615dd67",
+          "normalized_fields": {
+            "activation_plugin": {
+              "cache_present": true,
+              "marketplace_source_path": "./Plugins/plugin-eval",
+              "name": "plugin-eval",
+              "registered_in_marketplace": true
+            },
+            "command": "plugins status plugin-eval --json",
+            "installed_plugin": {
+              "name": "plugin-eval",
+              "path": "plugins/cache/openai-curated/plugin-eval/b1986b3d3da5bb8a04d3cb1e69af5a29bb5c2c04"
+            },
+            "plugin_id": "plugin-eval",
+            "status": "success"
+          },
+          "returncode": 0,
+          "subject_id": "plugin-eval"
+        },
         "plugin-factory": {
           "blocker_id": null,
           "command": "bin/ask plugins status plugin-factory --json",
           "drift_class": null,
-          "evidence_ref": "sha256:4dc858554ee331eeda7ba2cbf3b7cfe31e36d617f7a279e1accb31196bc06b09",
+          "evidence_ref": "sha256:ae4586c0597b2e19bc9a7ffb39c9c2681455cda2a088ff60e610678e483bc700",
           "normalized_fields": {
             "activation_plugin": {
               "cache_present": true,
@@ -133,11 +493,34 @@
           "returncode": 0,
           "subject_id": "plugin-factory"
         },
+        "sentry": {
+          "blocker_id": null,
+          "command": "bin/ask plugins status sentry --json",
+          "drift_class": null,
+          "evidence_ref": "sha256:4324f7cafe66a932d3e64faca7d3d709304f4f564230623734918c076fb4c3eb",
+          "normalized_fields": {
+            "activation_plugin": {
+              "cache_present": true,
+              "marketplace_source_path": "./Plugins/sentry",
+              "name": "sentry",
+              "registered_in_marketplace": true
+            },
+            "command": "plugins status sentry --json",
+            "installed_plugin": {
+              "name": "sentry",
+              "path": "plugins/cache/openai-curated/sentry/b1986b3d3da5bb8a04d3cb1e69af5a29bb5c2c04"
+            },
+            "plugin_id": "sentry",
+            "status": "success"
+          },
+          "returncode": 0,
+          "subject_id": "sentry"
+        },
         "skill-factory": {
           "blocker_id": null,
           "command": "bin/ask plugins status skill-factory --json",
           "drift_class": null,
-          "evidence_ref": "sha256:57b2d41e023f3fd105be0b7fde042c5b5bcd4dfc31880ea6c600f2caf3426f54",
+          "evidence_ref": "sha256:27201ea001851524aa3cd7cb7317936af9d0dac040a14dff14f8cc21ccc89b2c",
           "normalized_fields": {
             "activation_plugin": {
               "cache_present": true,
@@ -155,18 +538,41 @@
           },
           "returncode": 0,
           "subject_id": "skill-factory"
+        },
+        "slack": {
+          "blocker_id": null,
+          "command": "bin/ask plugins status slack --json",
+          "drift_class": null,
+          "evidence_ref": "sha256:2e93e1ca9eb001d3da3a60049dfa765b2a756f067edbf8ddb34eb21019e493ed",
+          "normalized_fields": {
+            "activation_plugin": {
+              "cache_present": true,
+              "marketplace_source_path": "./Plugins/slack",
+              "name": "slack",
+              "registered_in_marketplace": true
+            },
+            "command": "plugins status slack --json",
+            "installed_plugin": {
+              "name": "slack",
+              "path": "plugins/cache/openai-curated/slack/b1986b3d3da5bb8a04d3cb1e69af5a29bb5c2c04"
+            },
+            "plugin_id": "slack",
+            "status": "success"
+          },
+          "returncode": 0,
+          "subject_id": "slack"
         }
       },
       "repo_doctor_catalog": {
         "blocker_id": "catalog:cc4eb19d4fe8",
         "command": "bin/ask repo doctor-catalog --strict --json",
         "drift_class": "command_exit_nonzero",
-        "evidence_ref": "sha256:d85e12ab4db5b3363b8b0c761112291b1bdeddb184999dbc318d8a57797ed684",
+        "evidence_ref": "sha256:3c5315d560ac8f7626eb86728796857093456d9df4eb734ec702c3f64a5a2c9a",
         "normalized_fields": {
           "command": "repo doctor-catalog --strict --json",
           "decision_status": "blocked_catalog_parity",
           "drift_class": "count_mismatch",
-          "policy_identity": "7b5d4c75b7d19338",
+          "policy_identity": "a4d137082c750ef9",
           "status": "error"
         },
         "returncode": 2,
@@ -176,7 +582,7 @@
         "blocker_id": null,
         "command": "bin/ask repo status --json",
         "drift_class": null,
-        "evidence_ref": "sha256:a8ab4e40764a69258aefb3600d33239dcebd511ea5f59fa77b557ec3368db5c2",
+        "evidence_ref": "sha256:bb94971ae4d695212fab7c151940e6f54b71ca0fb0dcb0495ef9e5fd5252cdba",
         "normalized_fields": {
           "command": "repo status --json",
           "is_git": true,
@@ -204,30 +610,30 @@
         "blocker_id": null,
         "command": "bin/ask skills list --json",
         "drift_class": null,
-        "evidence_ref": "sha256:ac6d152e21b029f28c00573d08787009a74413277d22eb5ab8d2648eb4d8ef6d",
+        "evidence_ref": "sha256:ccfefffdf4f146b721600481ed037a4fa395680b1c1736f7467902d673244453",
         "normalized_fields": {
           "command": "skills list --json",
           "sample_names": [
-            "autofix",
-            "code-review",
-            "ce-reliability-review",
-            "ce-review",
-            "ce-technical-review",
-            "ce-brainstorm",
-            "ce-compound",
-            "ce-compound-refresh",
-            "ce-deepen-plan",
-            "ce-deepen-spec"
+            "playwright",
+            "plugin-installer",
+            "plugin-creator",
+            "agent-native-audit",
+            "agents-md",
+            "alignment-checkpoint",
+            "autoresearch",
+            "bash-hygiene",
+            "biome-linting",
+            "bootstrap"
           ],
-          "skill_count": 130,
+          "skill_count": 191,
           "status": "success"
         },
         "returncode": 0,
         "subject_id": "skills"
       }
     },
-    "command_checks_digest": "e66fecf2f6efd29b074c4044893febb97d84911581c0e6073a942054c0dd48c0",
-    "discovery_identity": "b686f68990cebf44e0e650fbf3d9189d860085b25b92db5c4603f3fa26bd9191",
+    "command_checks_digest": "cd1fbb94058aa9fe82259569cb3338bf325bee0c4be817217e69d4686addac0f",
+    "discovery_identity": "50825db9330454f5e2ce710d1626fc98487b3eab0f478307045b75a3c2d65126",
     "duplicate_shadow_drift_classes": {
       "plugins_doctor": null,
       "repo_doctor_catalog": "command_exit_nonzero"
@@ -235,62 +641,207 @@
     "plugin_activation_parity": {
       "cache_absent": false,
       "checked_plugins": [
+        "build-ios-apps",
+        "build-macos-apps",
+        "build-web-apps",
+        "circleci",
+        "cloudflare",
         "coderabbit",
+        "coderabbit",
+        "computer-use",
+        "figma",
+        "github",
         "harness-engineering",
+        "linear",
+        "plugin-eval",
         "plugin-factory",
-        "skill-factory"
+        "sentry",
+        "skill-factory",
+        "slack"
       ],
       "doctor_status": "success",
       "status_blockers": {
+        "build-ios-apps": null,
+        "build-macos-apps": null,
+        "build-web-apps": null,
+        "circleci": null,
+        "cloudflare": null,
         "coderabbit": null,
+        "computer-use": null,
+        "figma": null,
+        "github": null,
         "harness-engineering": null,
+        "linear": null,
+        "plugin-eval": null,
         "plugin-factory": null,
-        "skill-factory": null
+        "sentry": null,
+        "skill-factory": null,
+        "slack": null
       }
     },
     "plugin_package_root_parity": [
       {
         "asset_relpath": ".codex-plugin/plugin.json",
+        "catalog_resolution": "Infrastructure/catalog/Plugins/build-ios-apps",
+        "consumer_id": "plugins_status.build-ios-apps",
+        "evidence_ref": "sha256:de9e03d5a98a61dfd6a59bd9843adda3990d91603a92a4695482c0ae7a996968",
+        "legacy_resolution": "./Plugins/build-ios-apps",
+        "parity_result": "fail",
+        "plugin_id": "build-ios-apps",
+        "selector_row_id": "build-ios-apps:0"
+      },
+      {
+        "asset_relpath": ".codex-plugin/plugin.json",
+        "catalog_resolution": "Infrastructure/catalog/Plugins/build-macos-apps",
+        "consumer_id": "plugins_status.build-macos-apps",
+        "evidence_ref": "sha256:beebc54fc5d18ac9e13a1123caaa86919e98910c88080c390125b4d310a254a3",
+        "legacy_resolution": "./Plugins/build-macos-apps",
+        "parity_result": "fail",
+        "plugin_id": "build-macos-apps",
+        "selector_row_id": "build-macos-apps:1"
+      },
+      {
+        "asset_relpath": ".codex-plugin/plugin.json",
+        "catalog_resolution": "Infrastructure/catalog/Plugins/build-web-apps",
+        "consumer_id": "plugins_status.build-web-apps",
+        "evidence_ref": "sha256:ae3cd8540a35186798e86a8a5e79304020d31c17b35d5f1e32c0e160d4313ff9",
+        "legacy_resolution": "./Plugins/build-web-apps",
+        "parity_result": "fail",
+        "plugin_id": "build-web-apps",
+        "selector_row_id": "build-web-apps:2"
+      },
+      {
+        "asset_relpath": ".codex-plugin/plugin.json",
+        "catalog_resolution": "Infrastructure/catalog/Plugins/circleci",
+        "consumer_id": "plugins_status.circleci",
+        "evidence_ref": "sha256:17a3752fcab423ec0224806942dbed8ed5670b7fcafc5c9ef6e44ad7c05c56e4",
+        "legacy_resolution": "./Plugins/circleci",
+        "parity_result": "fail",
+        "plugin_id": "circleci",
+        "selector_row_id": "circleci:3"
+      },
+      {
+        "asset_relpath": ".codex-plugin/plugin.json",
+        "catalog_resolution": "Infrastructure/catalog/Plugins/cloudflare",
+        "consumer_id": "plugins_status.cloudflare",
+        "evidence_ref": "sha256:5f04b8f2058bdfdf8fff39e6bff9ca695c14b8e6e9b322e2c1cd7486b5f5b6f7",
+        "legacy_resolution": "./Plugins/cloudflare",
+        "parity_result": "fail",
+        "plugin_id": "cloudflare",
+        "selector_row_id": "cloudflare:4"
+      },
+      {
+        "asset_relpath": ".codex-plugin/plugin.json",
         "catalog_resolution": "Infrastructure/catalog/Plugins/coderabbit",
         "consumer_id": "plugins_status.coderabbit",
-        "evidence_ref": "sha256:b8f0c9d397af01448a1932bce59fe931dab8476b216af5df4b411b30d9c80680",
+        "evidence_ref": "sha256:b6daeb8a332a70b222c686aa67f7904bc5d824308304e35915a131639bc163f9",
         "legacy_resolution": "./Plugins/coderabbit",
         "parity_result": "fail",
         "plugin_id": "coderabbit",
-        "selector_row_id": "coderabbit:0"
+        "selector_row_id": "coderabbit:5"
+      },
+      {
+        "asset_relpath": ".codex-plugin/plugin.json",
+        "catalog_resolution": "Infrastructure/catalog/Plugins/computer-use",
+        "consumer_id": "plugins_status.computer-use",
+        "evidence_ref": "sha256:2a20a6c4be43fa9237b2b8a6fac1e9a20c4deb3368e318f487a60b053f1bcc5d",
+        "legacy_resolution": "./Plugins/computer-use",
+        "parity_result": "fail",
+        "plugin_id": "computer-use",
+        "selector_row_id": "computer-use:6"
+      },
+      {
+        "asset_relpath": ".codex-plugin/plugin.json",
+        "catalog_resolution": "Infrastructure/catalog/Plugins/figma",
+        "consumer_id": "plugins_status.figma",
+        "evidence_ref": "sha256:53557eb4a7c12490e657df6b716ae6b024981ad6b39256a5757f684b87d1dabf",
+        "legacy_resolution": "./Plugins/figma",
+        "parity_result": "fail",
+        "plugin_id": "figma",
+        "selector_row_id": "figma:7"
+      },
+      {
+        "asset_relpath": ".codex-plugin/plugin.json",
+        "catalog_resolution": "Infrastructure/catalog/Plugins/github",
+        "consumer_id": "plugins_status.github",
+        "evidence_ref": "sha256:86e31b04101b67687d503e4e1b8d2a5fec359f6721c66204495d555113f3c9de",
+        "legacy_resolution": "./Plugins/github",
+        "parity_result": "fail",
+        "plugin_id": "github",
+        "selector_row_id": "github:8"
       },
       {
         "asset_relpath": ".codex-plugin/plugin.json",
         "catalog_resolution": "Infrastructure/catalog/Plugins/harness-engineering",
         "consumer_id": "plugins_status.harness-engineering",
-        "evidence_ref": "sha256:4c2ce74af08f28a2e64837f0707623cf6f96d8136af833574018868689fac72a",
+        "evidence_ref": "sha256:125f0394e5d5b8a4ee0f04b5c53c66344fb358bb7f72bfd182657cbd5cb4bbd3",
         "legacy_resolution": "./Plugins/harness-engineering",
         "parity_result": "fail",
         "plugin_id": "harness-engineering",
-        "selector_row_id": "harness-engineering:1"
+        "selector_row_id": "harness-engineering:9"
+      },
+      {
+        "asset_relpath": ".codex-plugin/plugin.json",
+        "catalog_resolution": "Infrastructure/catalog/Plugins/linear",
+        "consumer_id": "plugins_status.linear",
+        "evidence_ref": "sha256:826197f1f1b3c55995f97113fec7b9342c27a649d4fda025502303793ffea197",
+        "legacy_resolution": "./Plugins/linear",
+        "parity_result": "fail",
+        "plugin_id": "linear",
+        "selector_row_id": "linear:10"
+      },
+      {
+        "asset_relpath": ".codex-plugin/plugin.json",
+        "catalog_resolution": "Infrastructure/catalog/Plugins/plugin-eval",
+        "consumer_id": "plugins_status.plugin-eval",
+        "evidence_ref": "sha256:ef52e9bdd3661fcbbeb132a534e56abba42f8e2d047ffdbdc9f4041c0615dd67",
+        "legacy_resolution": "./Plugins/plugin-eval",
+        "parity_result": "fail",
+        "plugin_id": "plugin-eval",
+        "selector_row_id": "plugin-eval:11"
       },
       {
         "asset_relpath": ".codex-plugin/plugin.json",
         "catalog_resolution": "Infrastructure/catalog/Plugins/plugin-factory",
         "consumer_id": "plugins_status.plugin-factory",
-        "evidence_ref": "sha256:4dc858554ee331eeda7ba2cbf3b7cfe31e36d617f7a279e1accb31196bc06b09",
+        "evidence_ref": "sha256:ae4586c0597b2e19bc9a7ffb39c9c2681455cda2a088ff60e610678e483bc700",
         "legacy_resolution": "./Plugins/plugin-factory",
         "parity_result": "fail",
         "plugin_id": "plugin-factory",
-        "selector_row_id": "plugin-factory:2"
+        "selector_row_id": "plugin-factory:12"
+      },
+      {
+        "asset_relpath": ".codex-plugin/plugin.json",
+        "catalog_resolution": "Infrastructure/catalog/Plugins/sentry",
+        "consumer_id": "plugins_status.sentry",
+        "evidence_ref": "sha256:4324f7cafe66a932d3e64faca7d3d709304f4f564230623734918c076fb4c3eb",
+        "legacy_resolution": "./Plugins/sentry",
+        "parity_result": "fail",
+        "plugin_id": "sentry",
+        "selector_row_id": "sentry:13"
       },
       {
         "asset_relpath": ".codex-plugin/plugin.json",
         "catalog_resolution": "Infrastructure/catalog/Plugins/skill-factory",
         "consumer_id": "plugins_status.skill-factory",
-        "evidence_ref": "sha256:57b2d41e023f3fd105be0b7fde042c5b5bcd4dfc31880ea6c600f2caf3426f54",
+        "evidence_ref": "sha256:27201ea001851524aa3cd7cb7317936af9d0dac040a14dff14f8cc21ccc89b2c",
         "legacy_resolution": "./Plugins/skill-factory",
         "parity_result": "fail",
         "plugin_id": "skill-factory",
-        "selector_row_id": "skill-factory:3"
+        "selector_row_id": "skill-factory:14"
+      },
+      {
+        "asset_relpath": ".codex-plugin/plugin.json",
+        "catalog_resolution": "Infrastructure/catalog/Plugins/slack",
+        "consumer_id": "plugins_status.slack",
+        "evidence_ref": "sha256:2e93e1ca9eb001d3da3a60049dfa765b2a756f067edbf8ddb34eb21019e493ed",
+        "legacy_resolution": "./Plugins/slack",
+        "parity_result": "fail",
+        "plugin_id": "slack",
+        "selector_row_id": "slack:15"
       }
     ],
-    "policy_identity": "7b5d4c75b7d19338",
+    "policy_identity": "a4d137082c750ef9",
     "reader_root_set": [
       "plugins_doctor",
       "plugins_status",
@@ -299,14 +850,26 @@
       "repo_validate",
       "skills_list"
     ],
-    "visible_cache_absent": true,
+    "visible_cache_absent": false,
     "writer_authority_map": {
       "plugins_doctor": "plugins",
       "plugins_status": [
+        "build-ios-apps",
+        "build-macos-apps",
+        "build-web-apps",
+        "circleci",
+        "cloudflare",
         "coderabbit",
+        "computer-use",
+        "figma",
+        "github",
         "harness-engineering",
+        "linear",
+        "plugin-eval",
         "plugin-factory",
-        "skill-factory"
+        "sentry",
+        "skill-factory",
+        "slack"
       ],
       "repo_doctor_catalog": "catalog",
       "repo_status": "repo",
